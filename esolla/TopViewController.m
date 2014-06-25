@@ -7,6 +7,7 @@
 //
 
 #import "TOPViewController.h"
+#import "CameraViewController.h"
 
 @interface TopViewController ()
 
@@ -26,9 +27,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor colorWithRed:0.2 green:1 blue:0.2 alpha:0.5];
 
+    //タイトル追加
+    UILabel *titleLabel = [[UILabel alloc]init];
+    titleLabel.text = @"touchでcamera start";
+    titleLabel.numberOfLines = 2;
+    titleLabel.font = [UIFont systemFontOfSize:40];
+    titleLabel.frame = CGRectMake(0, 50, 320, 100);
+    titleLabel.textColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:1];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:titleLabel];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,15 +45,19 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    /*
+    CameraViewController *cameraViewCtr = [[CameraViewController alloc]init];
+    [self presentViewController:cameraViewCtr animated:NO completion:nil];*/
+    UIImagePickerController *pic;
+    pic = [[UIImagePickerController alloc]init];
+    pic.delegate = (id)self;
+    pic.sourceType = UIImagePickerControllerSourceTypeCamera;
+    pic.allowsEditing = TRUE;
+    
+    [self presentViewController:pic animated:YES completion:nil];
 }
-*/
+
 
 @end
