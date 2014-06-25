@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TopViewController.h"
+
 
 @implementation AppDelegate
 
@@ -16,6 +18,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    TopViewController *topViewCtr = [[TopViewController alloc]init]; //TOP画面の定義
+    self.window.rootViewController = topViewCtr; //画面遷移をTOP画面に移動
+    
     return YES;
 }
 
