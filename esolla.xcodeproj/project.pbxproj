@@ -21,6 +21,8 @@
 		D54375BC195AE4E100F12E36 /* esollaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54375BB195AE4E100F12E36 /* esollaTests.m */; };
 		D54375C7195AE50200F12E36 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54375C6195AE50200F12E36 /* TopViewController.m */; };
 		D54375CA195AEE6D00F12E36 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54375C9195AEE6D00F12E36 /* CameraViewController.m */; };
+		D54375CC195AF2F000F12E36 /* octojekyll.png in Resources */ = {isa = PBXBuildFile; fileRef = D54375CB195AF2F000F12E36 /* octojekyll.png */; };
+		D54375CE195AF86600F12E36 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = D54375CD195AF86600F12E36 /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		D54375C6195AE50200F12E36 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		D54375C8195AEE6D00F12E36 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		D54375C9195AEE6D00F12E36 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		D54375CB195AF2F000F12E36 /* octojekyll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octojekyll.png; sourceTree = "<group>"; };
+		D54375CD195AF86600F12E36 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		D543759C195AE4E100F12E36 /* esolla */ = {
 			isa = PBXGroup;
 			children = (
+				D54375CF195AF86A00F12E36 /* img */,
 				D54375A5195AE4E100F12E36 /* AppDelegate.h */,
 				D54375A6195AE4E100F12E36 /* AppDelegate.m */,
 				D54375C5195AE50200F12E36 /* TopViewController.h */,
@@ -152,6 +157,15 @@
 				D54375B8195AE4E100F12E36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D54375CF195AF86A00F12E36 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D54375CB195AF2F000F12E36 /* octojekyll.png */,
+				D54375CD195AF86600F12E36 /* 01.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54375A1195AE4E100F12E36 /* InfoPlist.strings in Resources */,
+				D54375CC195AF2F000F12E36 /* octojekyll.png in Resources */,
+				D54375CE195AF86600F12E36 /* 01.png in Resources */,
 				D54375A9195AE4E100F12E36 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

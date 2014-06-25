@@ -56,7 +56,27 @@
     pic.sourceType = UIImagePickerControllerSourceTypeCamera;
     pic.allowsEditing = TRUE;
     
+    UIImageView *logo = [[UIImageView alloc]init];
+    logo.image = [UIImage imageNamed:@"01.png"];
+    logo.frame = CGRectMake(100, 250, 120, 170);
+
+    pic.cameraOverlayView = logo;
     [self presentViewController:pic animated:YES completion:nil];
+    
+    /*
+     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+     
+     if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+     {
+     [picker setSourceType:UIImagePickerControllerSourceTypeCamera];
+     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image.png"]];
+     picker.cameraOverlayView = imageView;
+     }
+     
+     [self presentViewController:picker animated:YES completion:nil];
+     }
+
+     */
 }
 
 
