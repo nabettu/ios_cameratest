@@ -20,7 +20,6 @@
 		D54375BA195AE4E100F12E36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D54375B8195AE4E100F12E36 /* InfoPlist.strings */; };
 		D54375BC195AE4E100F12E36 /* esollaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54375BB195AE4E100F12E36 /* esollaTests.m */; };
 		D54375C7195AE50200F12E36 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54375C6195AE50200F12E36 /* TopViewController.m */; };
-		D54375CA195AEE6D00F12E36 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54375C9195AEE6D00F12E36 /* CameraViewController.m */; };
 		D54375CC195AF2F000F12E36 /* octojekyll.png in Resources */ = {isa = PBXBuildFile; fileRef = D54375CB195AF2F000F12E36 /* octojekyll.png */; };
 		D54375CE195AF86600F12E36 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = D54375CD195AF86600F12E36 /* 01.png */; };
 /* End PBXBuildFile section */
@@ -54,8 +53,6 @@
 		D54375BB195AE4E100F12E36 /* esollaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = esollaTests.m; sourceTree = "<group>"; };
 		D54375C5195AE50200F12E36 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		D54375C6195AE50200F12E36 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
-		D54375C8195AEE6D00F12E36 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		D54375C9195AEE6D00F12E36 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		D54375CB195AF2F000F12E36 /* octojekyll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octojekyll.png; sourceTree = "<group>"; };
 		D54375CD195AF86600F12E36 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,8 +119,6 @@
 				D54375A6195AE4E100F12E36 /* AppDelegate.m */,
 				D54375C5195AE50200F12E36 /* TopViewController.h */,
 				D54375C6195AE50200F12E36 /* TopViewController.m */,
-				D54375C8195AEE6D00F12E36 /* CameraViewController.h */,
-				D54375C9195AEE6D00F12E36 /* CameraViewController.m */,
 				D54375A8195AE4E100F12E36 /* Images.xcassets */,
 				D543759D195AE4E100F12E36 /* Supporting Files */,
 			);
@@ -266,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54375A7195AE4E100F12E36 /* AppDelegate.m in Sources */,
-				D54375CA195AEE6D00F12E36 /* CameraViewController.m in Sources */,
 				D54375A3195AE4E100F12E36 /* main.m in Sources */,
 				D54375C7195AE50200F12E36 /* TopViewController.m in Sources */,
 			);
